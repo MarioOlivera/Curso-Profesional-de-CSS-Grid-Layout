@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.wrapper{
+    display: grid;
+    width: 630px;
+    height: 630px;
+    margin: 30px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: aqua;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+}
+
+.container div{
+    background-color: yellowgreen;
+    width: 60px;
+    height: 60px;
+}
+
+.element2{
+    margin: 60px 0;
+}
+
+.element3{
+    margin: 140px 0px 0px 0px;
+}
+
+.element4{
+    margin: 0px auto;
+}
+
+.element5{
+    margin: 60px 60px;
+}
+
+.element6{
+    margin: 140px auto;
+}
+
+.element7{
+    margin: 0px 140px;
+}
+
+.element8{
+    margin: 60px 140px; 
+}
+
+.element9{
+    margin: 140px 140px;
+}
+
