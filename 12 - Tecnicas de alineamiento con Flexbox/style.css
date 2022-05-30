@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    margin: 100px auto;
+    width: 630px;
+    height: 630px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-element{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.box-element div
+{
+    width: 60px;
+    height: 60px;
+    background-color: bisque;
+    text-align: center;
+    line-height: 30px;
+}
+
+.box-element2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+}
+
+.box-element2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-element3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.box-element4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-element5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-element6{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-element7{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.box-element8{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box-element9{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
