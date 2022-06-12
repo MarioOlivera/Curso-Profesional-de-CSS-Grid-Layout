@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 600px;
+    height: 600px;
+    font-size: 65px;
+}
+
+.container .item{
+    background-color: #68dbcf;
+    height: 100%;
+    width: 100%;
+}
+
+.container .item1{
+    background-color: #feeeda;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .item1 .elemento1{
+    background-color: #f00;
+    width: 100%;
+    place-self: center stretch;
+}
+
+
